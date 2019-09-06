@@ -1,0 +1,9 @@
+Sean Robinson
+
+1. Data travels on the internet in packets. Packets will travel from one machine to another until they reach their destination. As the packets arrive, the computer receiving the data assembles the packets like a puzzle, recreating the message.
+
+2. An IP address is an address assigned to any computer to identify it on a given network. A DNS address is a Domain Name Service which is used to convert alphabetic references into a server's IP address generally for hosting services.
+
+3. Cookies are small pieces of information that websites store on your computer. Cookies only contain bits of text, not anything else.
+
+4. The three basic parts of a URL are protocol, the domain name and the path.
