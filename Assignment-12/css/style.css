@@ -74,7 +74,7 @@ body {
   background:Green;
   color: white;
     margin: 0;
-    font-family: 'serif', sans-serif;
+    font-family: 'PT Serif', serif;
     font-size: 1.25em;
     text-align: center;
 }
@@ -106,7 +106,7 @@ a {
 .site-logo #logo {
   width: 140px;
   height: 140px;
-    margin: 5px;
+    margin left: 50px;
     margin-top: auto;
 }
 
@@ -127,3 +127,5 @@ nav a:hover {
   color: green;
 
 }
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans|PT+Serif&display=swap');
