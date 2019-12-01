@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
 
 *{
-	margin: 0;
+	margin: 10px;
 	padding: 0;
 	box-sizing: border-box;
 	outline: none;
 	list-style: none;
 	text-decoration: none;
 	font-family: 'Josefin Sans', sans-serif;
+  color: #000000;
 }
 
 h1.title{
@@ -62,18 +63,15 @@ p{
 	color: #fb2274;
 }
 
-.navbar_items ul{
+.navbar .navbar_items ul{
 	display: flex;
 }
 
-.navbar_items ul li{
+.navbar .navbar_items ul li{
 	margin: 0 10px;
+  text-transform: uppercase;
 }
 
-.navbar_items ul li a{
-	text-transform: uppercase;
-	color: #fff;
-}
 
 /* banner_image */
 .banner_image{
