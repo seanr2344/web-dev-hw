@@ -12,14 +12,18 @@
 
 h1.title{
 	margin-bottom: 20px;
-	color: #444444;
+	color: #FFFFFF;
 	font-family: 'Allura', cursive;
 	text-transform: uppercase;
 	font-size: 38px;
 	word-spacing: 25px;
 	letter-spacing: 5px;
+  background: #444444;
 }
 
+h1 {
+  color: black;
+}
 p{
 	margin-bottom: 15px;
 	font-size: 14px;
@@ -31,7 +35,7 @@ p{
     width: 180px;
     height: 35px;
     line-height: 35px;
-    border: 2px solid #fb2274;
+    border: 2px solid #191970;
     color: #fb2274;
     display: block;
     margin: 25px auto 0;
@@ -200,14 +204,17 @@ p{
 	color: #fff;
 }
 
-
-
 @media (max-width: 720px){
 
 	.navbar{
 		height: auto;
 		flex-direction: column;
 	}
+
+  .navbar ul{
+    flex-direction: column;
+    text-align: center;
+  }
 
 	.logo{
 		margin-bottom: 25px;
