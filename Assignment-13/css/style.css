@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
 
 *{
-	margin: 10px;
+	margin: 15px;
 	padding: 0;
 	box-sizing: border-box;
 	outline: none;
@@ -16,7 +16,7 @@ h1.title{
 	color: #FFFFFF;
 	font-family: 'Allura', cursive;
 	text-transform: uppercase;
-	font-size: 38px;
+	font-size: 26px;
 	word-spacing: 25px;
 	letter-spacing: 5px;
   background: #444444;
@@ -28,7 +28,7 @@ h1 {
 p{
 	margin-bottom: 15px;
 	font-size: 14px;
-	line-height: 20px;
+	line-height: 40px;
 	color: #a9a9a9;
 }
 
@@ -140,7 +140,7 @@ p{
 }
 
 .form_wrapper .form_input input[type="text"]{
-	width: 250px;
+	width: 400px;
 	padding: 12px 20px;
 	border: 1px solid #ccc;
 }
@@ -151,10 +151,15 @@ p{
 	height: 80px;
 	resize: none;
 	border: 1px solid  #ccc;
+
 }
 /* our team */
+
+
 .ourteam{
 	background: #f5f5f5;
+	padding: 0px;
+	position: absolute;
 }
 
 .ourteam_wrapper{
@@ -189,6 +194,7 @@ p{
 .ourteam_wrapper .team_members:hover img{
 	transform: scale(1.1);
 }
+
 
 /* footer */
 .footer{
